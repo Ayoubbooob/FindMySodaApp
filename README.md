@@ -12,4 +12,4 @@ An android app that recommends sodas depending on your favorite color
 
 ## what the app looks like
 
-![sodaApp](https://user-images.githubusercontent.com/53185956/160312290-c6f28707-df60-4a98-a672-6c8545caf567.png)
+![sodaApp2](https://user-images.githubusercontent.com/53185956/160313225-3b2299cf-b461-4c7c-a55e-efbcbfa39db0.png)
