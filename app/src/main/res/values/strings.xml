@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">SodaApp</string>
+    <string name="find_soda">Find Soda</string>
+    <string name="Soda">No Soda Has Selected</string>
+
+    <string-array name="sodaTypes">
+        <item>Light</item>
+        <item>Dark</item>
+        <item>Brown</item>
+        <item>Yellow</item>
+    </string-array>
+</resources>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".FindSodaActivity">
+
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="40dp"
+        android:entries="@array/sodaTypes"/>
+
+    <Button
+        android:id="@+id/findSoda"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/find_soda"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"
+        android:onClick="onClickFindSoda"
+        tools:ignore="UsingOnClickInXml" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Soda"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
